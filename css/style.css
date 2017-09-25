@@ -1,0 +1,49 @@
+/* 
+Reset
+*/
+    /* Importer le CDN de Font Awesome */
+    @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+    @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Configurer les valeurs relatives = 1rem = 10px */
+    html{
+        font-size: 62.5%;
+    }
+
+    body{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+        background: #fafafa;
+    }
+
+    img{
+        max-width: 100%;
+    }
+/**/
+
+/* 
+Style Slider
+*/
+    #sliderInstagram{
+        background-image: url('../img/background.png');
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        height: 61rem;
+
+        /* Bloquer les enfants dans le parent */
+        position: relative;
+    }
+
+    #sliderInstagram img{
+        /* Sortir la balise du flux de lécture logique */
+        position: absolute;
+        left: 14.7rem;
+        bottom: 8.7rem;
+    }
+/**/
